@@ -131,7 +131,7 @@ print(state)
 """
 #hijacking
 """
-res = ses.get("https://authenticationtest.com/",cookies={'PHPSESSID': 'odc12fpnod270ac477utmlgpdg'})
+res = ses.get("https://authenticationtest.com/",cookies={'PHPSESSID': sessıd})
 html = Selector(res)
 state = html.xpath("/html/body/nav/span").get()
 print(state)
